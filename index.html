@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+      <div class="container">
+        <aside class="left">
+        <h1>Nithilan S</h1>
+        <h3>CSE Student , Amrita Vishwa Vidyapeetham</h3>
+        <p>I build fun stuff.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <div class="socials">
+    <a href="https://github.com/Nithilan-su57" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/nithilan-s-4b9141381/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="mailto:am.sc.u4cse25262@am.students.amrita.edu">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
+    </aside>
+        <main class="right">
+            <section id="about">
+                <p>I'm an aspiring Engineer with a speciality in logical thinking and 
+                building awesome stuff. I enjoy working in the intersection of logic and engineering, 
+                where everything just clicks.</p>
+
+                <p>Currently, I'm a first year majoring in Computer Science Engineering at Amrita Vishwa Vidyapeetham.
+                I'm working on a lot of small time local projects which enables me to develop awesome 
+                websites like this one too. </p>
+                
+                <p>Previously, Ive worked a lot on hardware stuff and built a wide range of custom parts to 
+                modifying electronics.</p>
+                <p>Outside of work, you can find me exercising, running , hanging out with my friends, or 
+                strolling around searching for ideas.</p>
+            </section>
+            <section id="skills">
+                <h3>Skills</h3>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fa-brands fa-python"></i>
+        <h4>Python</h4>
+      </div>
+      <p>Writing scripts, automating tasks, and building small applications. Comfortable with core libraries and file handling.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fa-brands fa-java"></i>
+        <h4>Java</h4>
+      </div>
+      <p>Building backend logic and networked applications. Experienced with OOP concepts, multithreading, and TCP socket programming.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <i class="fa-solid fa-palette"></i>
+        <h4>UI Development</h4>
+      </div>
+      <p>Designing and building clean, responsive web interfaces using HTML and CSS. Focused on creating minimal, user-friendly experiences.</p>
+    </div>
+
+  </div>
+            </section>
+            <section id="projects">
+                    <h3>Projects</h3>
+
+  <div class="project-card">
+    <div class="project-header">
+      <i class="fa-solid fa-folder"></i>
+      <div class="project-links">
+        <a href="https://github.com/Nithilan-su57" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <h4>TCP Chat Room</h4>
+    <p>
+      A real-time multi-client chat application built in Java using TCP sockets. 
+      Supports multiple users connecting to a central server simultaneously, 
+      with messages broadcast to all connected clients instantly.
+    </p>
+    <div class="project-tags">
+      <span>Java</span>
+      <span>TCP Sockets</span>
+      <span>Multithreading</span>
+      <span>Networking</span>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <i class="fa-solid fa-folder"></i>
+      <div class="project-links">
+        <a href="https://github.com/Nithilan-su57" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <h4>Python Project</h4>
+    <p>
+      A Python-based project focused on automation and scripting. 
+      Built to solve real-world problems using clean, readable code 
+      and Python's powerful standard libraries.
+    </p>
+    <div class="project-tags">
+      <span>Python</span>
+      <span>Scripting</span>
+      <span>Automation</span>
+    </div>
+  </div>
+            </section>
+    </main>
+  </div>
+  <script>
+  document.addEventListener('mousemove', (e) => {
+    document.documentElement.style.setProperty('--x', e.clientX + 'px');
+    document.documentElement.style.setProperty('--y', e.clientY + 'px');
+  });
+</script>
+</body>
+</html>
